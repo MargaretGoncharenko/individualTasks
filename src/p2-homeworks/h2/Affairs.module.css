@@ -1,3 +1,55 @@
-.someClass {
+.block {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    background-color: lightgoldenrodyellow;
+}
 
+.nameBlock {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.low {
+    border: 1px solid red;
+    color: red;
+}
+
+.middle {
+    border: 1px solid orange;
+    color: orangered;
+}
+
+.high {
+    border: 1px solid green;
+    color: green;
+}
+
+.buttonDelete {
+    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: seagreen;
+    color: white;
+    border: none;
+
+}
+
+.item {
+    display: inline-block;
+    width: 65px;
+    text-align: center;
+
+}
+
+.active {
+    background-color: lightseagreen;
+}
+
+.normal {
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px 10px;
+    border-radius: 8px;
 }
