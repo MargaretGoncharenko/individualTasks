@@ -1,7 +1,50 @@
 .default {
-
+    background-color: #fff000;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 200ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    touch-action: manipulation;
 }
+.default:not(:disabled):hover,
+.default:not(:disabled):focus {
+    outline: 30px;
+    background: #f4e603;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.default:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+}
+
 
 .red {
-    background: red;
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    padding: 12px 14px;
+    margin: 10px auto;
 }
+.red:hover{
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+.red:active{
+    opacity: .5;
+}
+
+
+
