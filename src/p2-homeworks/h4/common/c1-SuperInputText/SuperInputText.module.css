@@ -1,13 +1,14 @@
 .superInput {
     font-size: 1.5em;
-    margin: 10px 0;
+    margin: 10px;
     background: linear-gradient(21deg, rgba(16, 171, 255, 0.3), rgba(27, 234, 189, 0.3));
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 5px 8px;
     border-radius: 1em;
     border: none;
 
 }
-.superInput:focus{
+
+.superInput:focus {
     outline: none;
 }
 
@@ -18,11 +19,12 @@
     display: inline-block;
     border-radius: 1em;
     background: linear-gradient(21deg, rgba(255, 71, 66, 0.3), rgba(139, 0, 139, 0.3));
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-    margin: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 5px 8px;
+    margin: 10px;
     border: none;
 }
-.errorInput:focus{
+
+.errorInput:focus {
     outline: none;
 }
 

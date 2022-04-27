@@ -11,7 +11,7 @@ const messageData = {
 function HW1() {
     return (
         <div>
-            <hr/>
+            {/*<hr/>*/}
             homeworks 1
 
             {/*should work (должно работать)*/}
@@ -23,10 +23,10 @@ function HW1() {
                 time={messageData.time}
             />
 
-            <hr/>
+            {/*<hr/>*/}
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeMessage/>*/}
-            <hr/>
+            {/*<hr/>*/}
         </div>
     )
 }
