@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MargaretGoncharenko/individualTasks/static/css/main.103a8722.css",
+    "main.js": "/MargaretGoncharenko/individualTasks/static/js/main.9004a3ff.js",
+    "index.html": "/MargaretGoncharenko/individualTasks/index.html",
+    "main.103a8722.css.map": "/MargaretGoncharenko/individualTasks/static/css/main.103a8722.css.map",
+    "main.9004a3ff.js.map": "/MargaretGoncharenko/individualTasks/static/js/main.9004a3ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.103a8722.css",
+    "static/js/main.9004a3ff.js"
+  ]
+}
