@@ -1,7 +1,7 @@
 .container {
     margin: 10px;
     padding: 10px;
-    background-color: lightblue;
+    background-color: rgba(176, 196, 222, 0.5);
     width: 390px;
 }
 

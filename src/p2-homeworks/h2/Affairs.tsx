@@ -22,7 +22,7 @@ function Affairs(props: AffairsPropsType) {
 
     const setAll = () => {
         props.setFilter("all")
-    } // need to fix
+    }
     const setHigh = () => {
         props.setFilter("high")
     }

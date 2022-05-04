@@ -1,0 +1,47 @@
+.graduating {
+    width: 350px;
+    border-left: none;
+    padding: 10px 5px;
+    margin: 40px 0;
+    transform: translate(-260px);
+    transition-duration: 500ms;
+    background: linear-gradient(21deg, rgba(255, 71, 66, 0.6), rgba(139, 0, 139, 0.6));
+}
+
+.graduating:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
+
+.graduating > a {
+    margin: 10px 0;
+    padding: 0 15px;
+    text-decoration: none;
+
+}
+
+.graduating > a:focus {
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.graduating > a:hover {
+    color: #491149;
+}
+
+.square::after {
+    content: '';
+    position: absolute;
+    right: -45px;
+    top: 7px;
+    border: 15px solid transparent;
+    border-left: 20px solid rgba(139, 0, 139, 0.7);
+}
+
+.menu {
+    font-size: 17px;
+    color: white;
+    margin-left: 12px;
+}

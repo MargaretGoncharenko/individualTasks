@@ -8,7 +8,7 @@
     align-items: center;
     width: fit-content;
     margin: 10px;
-    background-color: lightcyan;
+    background-color: rgba(176, 196, 222, 0.5);
 }
 
 .testSpanError {

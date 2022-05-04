@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    width: 85%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 55px;
+    background: linear-gradient(21deg, rgba(255, 71, 66, 0.2), rgba(139, 0, 139, 0.2));
+}
+
+.container > div {
+    display: grid;
+    height: fit-content;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.container > div > a {
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Tahoma;
+    font-style: italic;
+    background: linear-gradient(21deg, rgba(16, 171, 255, 0.2), rgba(27, 234, 189, 0.2));
+    border-radius: 15px;
+}
+
+.container > div > a:hover {
+    color: blueviolet;
+    cursor: pointer;
+}

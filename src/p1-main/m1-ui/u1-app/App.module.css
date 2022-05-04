@@ -1,7 +1,3 @@
-body {
-    background-color: rgba(82, 168, 146, 0.34);
-}
-
 .title {
     display: flex;
     font-size: 20px;
@@ -14,16 +10,4 @@ body {
     background: linear-gradient(21deg, rgba(255, 71, 66, 0.3), rgba(139, 0, 139, 0.3));
     justify-content: center;
     margin: 10px auto;
-}
-
-.App {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr;
-    width: 100%;
-}
-
-.App > div {
-    display: grid;
-    align-items: flex-start;
-    justify-content: center;
 }
