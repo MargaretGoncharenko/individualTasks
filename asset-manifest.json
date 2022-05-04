@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MargaretGoncharenko/individualTasks/static/css/main.78d32370.css",
-    "main.js": "/MargaretGoncharenko/individualTasks/static/js/main.c6f5eb7f.js",
+    "main.css": "/MargaretGoncharenko/individualTasks/static/css/main.5b56b8f4.css",
+    "main.js": "/MargaretGoncharenko/individualTasks/static/js/main.a90567d4.js",
     "index.html": "/MargaretGoncharenko/individualTasks/index.html",
-    "main.78d32370.css.map": "/MargaretGoncharenko/individualTasks/static/css/main.78d32370.css.map",
-    "main.c6f5eb7f.js.map": "/MargaretGoncharenko/individualTasks/static/js/main.c6f5eb7f.js.map"
+    "main.5b56b8f4.css.map": "/MargaretGoncharenko/individualTasks/static/css/main.5b56b8f4.css.map",
+    "main.a90567d4.js.map": "/MargaretGoncharenko/individualTasks/static/js/main.a90567d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.78d32370.css",
-    "static/js/main.c6f5eb7f.js"
+    "static/css/main.5b56b8f4.css",
+    "static/js/main.a90567d4.js"
   ]
 }
