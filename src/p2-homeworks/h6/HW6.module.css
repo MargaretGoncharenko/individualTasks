@@ -1,0 +1,13 @@
+.span{
+    margin: 10px;
+}
+.buttonGroup{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 5px;
+    /*border: 1px solid black;*/
+}
+.buttonGroup > .save, .restore{
+    margin: auto 10px;
+
+}

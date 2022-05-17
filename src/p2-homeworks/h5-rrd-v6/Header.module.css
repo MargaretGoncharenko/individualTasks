@@ -2,7 +2,7 @@
     width: 350px;
     border-left: none;
     padding: 10px 5px;
-    margin: 40px 0;
+    margin: 10px 0;
     transform: translate(-260px);
     transition-duration: 500ms;
     background: linear-gradient(21deg, rgba(255, 71, 66, 0.6), rgba(139, 0, 139, 0.6));

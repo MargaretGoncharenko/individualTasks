@@ -1,3 +1,7 @@
+.block{
+    margin: -55px 0;
+}
+
 .blue {
     border-bottom: 5px solid blue;
 }

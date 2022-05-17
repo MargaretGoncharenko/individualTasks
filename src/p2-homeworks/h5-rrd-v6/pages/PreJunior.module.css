@@ -1,18 +1,19 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr;
-    width: 85%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
     margin: 0 auto;
-    padding: 25px;
-    border-radius: 55px;
-    background: linear-gradient(21deg, rgba(255, 71, 66, 0.2), rgba(139, 0, 139, 0.2));
+    /*padding: 25px;*/
+    /*border-radius: 55px;*/
+    /*background: linear-gradient(21deg, rgba(255, 71, 66, 0.2), rgba(139, 0, 139, 0.2));*/
 }
 
 .container > div {
     display: grid;
     height: fit-content;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 

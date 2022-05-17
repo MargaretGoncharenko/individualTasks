@@ -1,0 +1,11 @@
+.span {
+    display: inline-block;
+    width: 270px;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 10px;
+    background: linear-gradient(21deg, rgba(16, 171, 255, 0.3), rgba(27, 234, 189, 0.3));
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 5px 8px;
+    border-radius: 1em;
+    border: none;
+}
