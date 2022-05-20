@@ -1,0 +1,16 @@
+.select {
+    width: 60px;
+    height: 35px;
+    appearance: none;
+    border: none;
+    color: azure;
+    font-size: 20px;
+    background-color: rgba(255, 71, 66, 0.6);
+    padding-left: 15px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/25/25623.png");
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    background-repeat: no-repeat, repeat;
+    cursor: pointer;
+
+}

@@ -1,0 +1,16 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.superRadio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background: rgba(255, 71, 66, 0.6);
+    border-left: none;
+    width: 120px;
+    height: 35px;
+}
