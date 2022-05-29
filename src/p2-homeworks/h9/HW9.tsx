@@ -1,19 +1,16 @@
 import React from 'react'
 import Clock from './Clock'
+import c from "./HW9.module.css"
 
 function HW9() {
     return (
-        <div>
-            <hr/>
-            homeworks 9
-
-            {/*should work (должно работать)*/}
-            <Clock/>
-
-            <hr/>
+        <div className={c.container}>
+            <a>homeworks 9</a>
+            <div>
+                <Clock/>
+            </div>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeClock/>*/}
-            <hr/>
         </div>
     )
 }
