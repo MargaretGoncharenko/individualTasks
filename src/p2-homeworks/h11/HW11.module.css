@@ -1,0 +1,19 @@
+.block {
+    display: block;
+    padding: 25px 0;
+    position: relative;
+}
+
+.block > .range {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 25px 0;
+}
+
+.square {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px 5px;
+    font-weight: bold;
+}
