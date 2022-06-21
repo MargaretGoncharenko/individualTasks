@@ -1,9 +1,15 @@
+.container {
+    height: 300px;
+    width: 400px;
+    font-size: 40px;
+}
+
 .dark {
     background: dimgrey;
 }
 
 .dark-text {
-    color: aliceblue;
+    color: papayawhip;
 }
 
 .red {
@@ -11,7 +17,7 @@
 }
 
 .red-text {
-    color: aqua;
+    color: darkred;
 }
 
 .some {
@@ -19,5 +25,22 @@
 }
 
 .some-text {
-    color: darkslateblue;
+    color: darkslategray;
 }
+
+.drakula {
+    background: midnightblue;
+}
+
+.drakula-text {
+    color: lightsteelblue;
+}
+
+.northernLights {
+    background-color: cadetblue;
+}
+
+.northernLights-text {
+    color: aquamarine;
+}
+

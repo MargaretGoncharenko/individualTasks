@@ -1,24 +1,39 @@
-import React from "react";
+import React, {ChangeEvent, useCallback} from "react";
 import s from "./HW12.module.css";
+import {useDispatch, useSelector} from "react-redux";
+import {FilterThemeType} from "./bll/themeReducer";
+import {AppStoreType} from "../h10/bll/store";
+import {changeThemeAC} from "./bll/themeReducer"
 
-const themes = ['dark', 'red', 'some'];
+const themes = ['dark', 'red', 'some', "drakula", "northernLights"];
 
 function HW12() {
-    const theme = 'some'; // useSelector
-
-    // useDispatch, onChangeCallback
+    const dispatch = useDispatch();
+    const theme = useSelector<AppStoreType, FilterThemeType>(state => state.theme.theme)
+    const onChange = useCallback(function (e: ChangeEvent<HTMLInputElement>,) {
+        let onChange = e.currentTarget.value
+        const action = changeThemeAC(onChange as FilterThemeType);
+        dispatch(action)
+    }, [])
 
     return (
-        <div className={s[theme]}>
-            <hr/>
+        <div className={s.container}>
+            <div className={s[theme]}>
             <span className={s[theme + '-text']}>
-                homeworks 12
+                <a>homeworks 12</a>
             </span>
-
-            {/*should work (должно работать)*/}
-            {/*SuperSelect or SuperRadio*/}
-
-            <hr/>
+                {
+                    themes.map((t) => (
+                        <input
+                            key={t.big()}
+                            type={"radio"}
+                            value={t}
+                            checked={t === theme}
+                            onChange={onChange}
+                        />
+                    ))
+                }
+            </div>
         </div>
     );
 }
